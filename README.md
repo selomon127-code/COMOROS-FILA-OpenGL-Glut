@@ -66,6 +66,11 @@ This project was a collaborative effort by Gondar University Computer Science st
 - **Animation**: Real-time wave effect using a Sine wave function: `y = A * sin(kx - wt)`.
 - **Tessellation**: Applied custom polygon tessellation for the FILA logo characters.
 
+## 🔍 Source Code Access
+The complete implementation can be found in:
+👉 **[main.cpp](./main.cpp)** 
+*(Contains: Window setup, Wave logic, Logo tessellation, and Input handling)*
+
 ## ▶️ How to Run
 
 ## 🖥️ Windows Setup & Run
@@ -85,9 +90,11 @@ Open CMD or PowerShell:
 ```bash
 git clone https://github.com/selomon127-code/Comoros-FILA-OpenGL.git
 
+...
 cd Comoros-FILA-OpenGL
+``` 
 
 ### 🐧 Linux / macOS
 ```bash
-g++ -std=c++14 *.cpp -lGL -lGLU -lglut -o comoros_fila
+g++ -std=c++14 main.cpp -lGL -lGLU -lglut -o comoros_fila
 ./comoros_fila
