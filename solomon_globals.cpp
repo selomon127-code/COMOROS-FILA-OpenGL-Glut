@@ -2,7 +2,7 @@
 //  STUDENT 1 — Project Setup, Headers, Constants & Global State
 //  Name   : Solomon (Group Owner)
 //  Branch : feature/solomon-globals
-//  File   : student1_globals.cpp
+//  File   : solomon_globals.cpp
 //  Role   : Project structure, window constants, and animation state.
 // ============================================================
 
